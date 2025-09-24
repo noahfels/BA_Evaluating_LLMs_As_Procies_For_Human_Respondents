@@ -5,7 +5,7 @@ The experiment tests if an LLM can accurately predict individual survey response
 
 ---
 
-## 💡 Project Summary
+## Project Summary
 
 - **Data**: ESS Round 11, Edition 3.0 (focus: Germany + cross-country subset)
 - **Model**: GPT-5 Nano via OpenAI API (zero-shot; no fine-tuning)
@@ -13,7 +13,7 @@ The experiment tests if an LLM can accurately predict individual survey response
 
 ---
 
-## 🧠 Key Components
+## Key Components
 
 ### `/data/`
 - `ess11_de_filtered.csv`: Preprocessed dataset (Germany)
@@ -25,7 +25,7 @@ The experiment tests if an LLM can accurately predict individual survey response
 
 ---
 
-## 🧪 Prediction Pipeline
+## Prediction Pipeline
 
 - **Script**: `run_predictions_super_parallel.py`
 - For each person:
@@ -40,7 +40,7 @@ For multi-country prediction, use `run_predictions_super_parallel_all_countries.
 
 ---
 
-## 🌍 Countries in Multi-Country Phase
+## Countries in Multi-Country Phase
 
 - Germany (DE)  
 - Sweden (SE)  
