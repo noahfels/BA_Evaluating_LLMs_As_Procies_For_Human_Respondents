@@ -1,4 +1,4 @@
-# ESS11 LLM Prediction Study 🇪🇺🤖
+# ESS11 LLM Prediction Study 🇪🇺
 
 This project evaluates whether Large Language Models (LLMs) can act as synthetic respondents in survey research, using real-world data from the **European Social Survey Round 11 (ESS11)**. 
 The experiment tests if an LLM can accurately predict individual survey responses based on a person's other answers — using a structured leave-one-out approach.
